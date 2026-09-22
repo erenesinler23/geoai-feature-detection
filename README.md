@@ -1,6 +1,6 @@
 # GeoAI building comparison
 
-[Read the research paper](lutfieren-esinler-geoai-research-paper.pdf)
+[Read the research paper](docs/lutfieren-esinler-geoai-research-paper.pdf)
 
 This project grew out of an attempt to find red roofs in satellite images. It compares a colour rule, OWL ViT and a simple hybrid using Sentinel 2 imagery. The Flask app lets you search for a place, inspect predictions and compare them with OpenStreetMap building footprints.
 
