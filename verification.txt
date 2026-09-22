@@ -1,0 +1,33 @@
+test_empty_metrics_render (test_app.AppTests.test_empty_metrics_render) ... ok
+test_recent_search_uses_saved_name (test_app.AppTests.test_recent_search_uses_saved_name) ... ok
+test_assignment_keeps_two_valid_pairs (test_evaluation.EvaluationTests.test_assignment_keeps_two_valid_pairs) ... ok
+test_crop_and_mask_reference_scope (test_evaluation.EvaluationTests.test_crop_and_mask_reference_scope) ... /Users/erenesinler/vscode-workspace/geoai-project/venv/lib/python3.14/site-packages/rasterio/transform.py:178: PendingDeprecationWarning: Use `@` matmul instead of `*` mul operator for matrix multiplication
+  return Affine.translation(west, north) * Affine.scale(xsize, -ysize)
+ok
+test_duplicate_ids_rejected (test_evaluation.EvaluationTests.test_duplicate_ids_rejected) ... ok
+test_duplicate_predictions (test_evaluation.EvaluationTests.test_duplicate_predictions) ... ok
+test_empty_predictions (test_evaluation.EvaluationTests.test_empty_predictions) ... ok
+test_empty_references (test_evaluation.EvaluationTests.test_empty_references) ... ok
+test_hybrid_large_box (test_evaluation.EvaluationTests.test_hybrid_large_box) ... ok
+test_invalid_polygons_are_repaired (test_evaluation.EvaluationTests.test_invalid_polygons_are_repaired) ... ok
+test_metric_size (test_evaluation.EvaluationTests.test_metric_size) ... ok
+test_one_box_cannot_match_two_buildings (test_evaluation.EvaluationTests.test_one_box_cannot_match_two_buildings) ... ok
+test_partial_download_is_not_scored (test_evaluation.EvaluationTests.test_partial_download_is_not_scored) ... ok
+test_relation_hole (test_evaluation.EvaluationTests.test_relation_hole) ... ok
+test_reprojected_inputs (test_evaluation.EvaluationTests.test_reprojected_inputs) ... ok
+test_subqueries_deduplicate_buildings (test_evaluation.EvaluationTests.test_subqueries_deduplicate_buildings) ... ok
+test_touching_is_not_matching (test_evaluation.EvaluationTests.test_touching_is_not_matching) ... ok
+test_uint8_subtraction (test_evaluation.EvaluationTests.test_uint8_subtraction) ... /Users/erenesinler/vscode-workspace/geoai-project/venv/lib/python3.14/site-packages/rasterio/transform.py:178: PendingDeprecationWarning: Use `@` matmul instead of `*` mul operator for matrix multiplication
+  return Affine.translation(west, north) * Affine.scale(xsize, -ysize)
+ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.090s
+
+OK
+
+The two original hybrid checks also passed.
+All seven saved evaluations reproduced their retained and matched counts.
+The synthetic demo completed.
+The photograph diagnostic reproduced 124 candidates and 93 passing the size rule.
+Syntax checks and the check for hyphens in Python comments passed.
