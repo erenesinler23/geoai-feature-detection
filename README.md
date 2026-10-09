@@ -4,6 +4,8 @@
 
 [If the PDF preview fails, try the smaller version](docs/lutfieren-esinler-geoai-research-paper_compressed.pdf)
 
+**Follow-up study:** [owlvit-resolution-sweep](https://github.com/erenesinler23/owlvit-resolution-sweep). This repository ends with OWL ViT finding no buildings in 10 m Sentinel 2 crops, and the resizing check below hints that image detail is the cause. The follow-up tests that directly. It degrades 0.3 m satellite chips of three cities to ten resolutions, compares OWL ViT, OWLv2 and a colour rule against chance and oracle baselines, and then repeats the test on real Sentinel 2 imagery.
+
 This project grew out of an attempt to find red roofs in satellite images. It compares a colour rule, OWL ViT and a simple hybrid using Sentinel 2 imagery. The Flask app lets you search for a place, inspect predictions and compare them with OpenStreetMap building footprints.
 
 The paper is titled *Comparing Colour Thresholding and a Vision Language Model for Building Matching in Satellite Images*. The evaluation checks how well predictions overlap mapped buildings. Roof colour remains unverified because the reference data includes buildings of every colour.
